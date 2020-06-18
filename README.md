@@ -5,8 +5,8 @@ CLI to export an inventory of one or more GitHub orgs into a CSV
 ## Installation
 
 ```
-npm install --global npm-repo-list-cli
-npm-repo-list --help
+npm install --global github-repo-list-cli
+github-repo-list --help
 ```
 
 ## Usage
