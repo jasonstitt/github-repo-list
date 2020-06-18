@@ -1,0 +1,38 @@
+{
+  "name": "github-repo-list",
+  "version": "1.0.0",
+  "description": "CLI to export an inventory of one or more GitHub orgs into a CSV",
+  "main": "src/index.js",
+  "bin": {
+    "github-repo-list": "src/index.js"
+  },
+  "scripts": {
+    "lint": "semistandard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonstitt/github-repo-list.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Inventory",
+    "CLI",
+    "Tools"
+  ],
+  "author": "Jason Stitt <js@jasonstitt.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jasonstitt/github-repo-list/issues"
+  },
+  "homepage": "https://github.com/jasonstitt/github-repo-list#readme",
+  "dependencies": {
+    "@fast-csv/format": "^4.3.0",
+    "bluebird": "^3.7.2",
+    "got": "^11.3.0",
+    "ora": "^4.0.4",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "semistandard": "^14.2.0"
+  }
+}
