@@ -1,6 +1,6 @@
 {
   "name": "github-repo-list-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI to export an inventory of one or more GitHub orgs into a CSV",
   "main": "src/index.js",
   "bin": {
