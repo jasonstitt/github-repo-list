@@ -28,7 +28,7 @@
   "dependencies": {
     "@fast-csv/format": "^4.3.5",
     "bluebird": "^3.7.2",
-    "got": "^11.8.2",
+    "got": "^12.5.3",
     "ora": "^5.4.1",
     "yargs": "^17.2.1"
   },
